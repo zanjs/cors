@@ -1,9 +1,9 @@
 # CORS gin's middleware
 
-[![Build Status](https://travis-ci.org/gin-contrib/cors.svg)](https://travis-ci.org/gin-contrib/cors)
-[![codecov](https://codecov.io/gh/gin-contrib/cors/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/cors)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/cors)](https://goreportcard.com/report/github.com/gin-contrib/cors)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/cors?status.svg)](https://godoc.org/github.com/gin-contrib/cors)
+[![Build Status](https://travis-ci.org/zanjs/cors.svg)](https://travis-ci.org/zanjs/cors)
+[![codecov](https://codecov.io/gh/zanjs/cors/branch/master/graph/badge.svg)](https://codecov.io/gh/zanjs/cors)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zanjs/cors)](https://goreportcard.com/report/github.com/zanjs/cors)
+[![GoDoc](https://godoc.org/github.com/zanjs/cors?status.svg)](https://godoc.org/github.com/zanjs/cors)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
 
 Gin middleware/handler to enable CORS support.
@@ -15,13 +15,13 @@ Gin middleware/handler to enable CORS support.
 Download and install it:
 
 ```sh
-$ go get github.com/gin-contrib/cors
+$ go get github.com/zanjs/cors
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/cors"
+import "github.com/zanjs/cors"
 ```
 
 ### Canonical example:
@@ -32,7 +32,7 @@ package main
 import (
 	"time"
 
-	"github.com/gin-contrib/cors"
+	"github.com/zanjs/cors"
 	"github.com/gin-gonic/gin"
 )
 
